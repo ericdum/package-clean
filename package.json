@@ -1,0 +1,21 @@
+{
+  "name": "package-clean",
+  "version": "0.1.2",
+  "description": "Search JS files and compare with package.json figure out which dependencies are unuse",
+  "keywords": "uglify uglifyjs directory folder",
+  "homepage": "https://github.com/ericdum/package-clean",
+  "bugs": "https://github.com/ericdum/package-clean",
+  "author": "木酱 <lichen.dlc@alibaba-inc.com> (http://mujiang.info/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ericdum/package-clean"
+  },
+  "dependencies": {
+    "co": "~4.6.0",
+    "commander": "~2.8.1"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "bin": "./index.js"
+}
